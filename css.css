@@ -1,0 +1,36 @@
+body {
+   background-color: black;
+}
+
+#container{
+    width: 850px;
+    margin: 150px auto;
+    position: inherit;
+    margin-top: 15em;
+    margin-left: 25em;
+}
+
+#container img{
+    cursor: pointer;
+}
+
+#previa{
+    background: rgba(0,0,0,0.5);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#previa div{
+    margin: 30px auto;
+    width: 381px;
+}
+
+#previa div img{
+    height: 40em;
+    width: 30em;
+}
